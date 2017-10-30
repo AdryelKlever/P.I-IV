@@ -30,7 +30,7 @@ public class Calculo {
     public float getAltura() {
         return altura;
     }
-    
+    //Teste de commit 
     public void setAlturaMedia(float alturaMedia){
         this.alturaMedia = alturaMedia;
     }
