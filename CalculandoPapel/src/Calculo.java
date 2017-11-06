@@ -63,6 +63,9 @@ public class Calculo {
         this.qtdEtiquetas = qtdEtiquetas;
     }
     
-}
+    public String qtdtotal() {
+        return "Altura: " + altura + "Altura Média: " + alturaMedia;
+    
+}}
     
 
