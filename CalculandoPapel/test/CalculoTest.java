@@ -98,7 +98,7 @@ public class CalculoTest {
     System.out.println("Retorna a Altura Media");
     Calculo c = new Calculo();
     float retorna = 2f;
-    float resultado = c.getAlturaMedia();
+    float resultado = c.getEtiquetasUnidades();
     assertEquals(retorna, resultado);
         
     }
@@ -108,7 +108,7 @@ public class CalculoTest {
         System.out.println("Retorna a Montagem Lateral");
         Calculo c = new Calculo();
         float retorna = 3f;
-        float resultado = c.getMontagemLateral();
+        float resultado = c.getAltura();
         assertEquals(retorna, resultado);
         
     }
@@ -130,7 +130,7 @@ public class CalculoTest {
         System.out.println("Retorna a quantidade de etiquetas por unidade ");
         Calculo c = new Calculo();
         float retorna = 100f;
-        float resultado = c.getEtiquetasUnidades();
+        float resultado = c.getAltura();
         assertEquals(retorna, resultado);
       
     }
