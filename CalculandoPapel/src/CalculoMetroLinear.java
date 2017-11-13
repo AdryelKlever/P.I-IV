@@ -46,6 +46,12 @@ public class CalculoMetroLinear extends javax.swing.JFrame {
 
         jLabel5.setText("MONTAGEM LATERAL");
 
+        txtAltura.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtAlturaActionPerformed(evt);
+            }
+        });
+
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
@@ -138,12 +144,16 @@ public class CalculoMetroLinear extends javax.swing.JFrame {
         c.setMontagemLateral(Float.parseFloat(txtMontagemLateral.getText()));
         c.setEtiquetasUnidades(Float.parseFloat(txtQuantidade.getText()));
         
-        //JOptionPane.showMessageDialog(this, c.Calculo());
+        JOptionPane.showMessageDialog(this, c);
         
         
         
         
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void txtAlturaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAlturaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtAlturaActionPerformed
 
     
     public static void main(String args[]) {

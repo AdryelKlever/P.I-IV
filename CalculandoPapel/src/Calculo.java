@@ -9,16 +9,16 @@ public class Calculo {
     
     
     
-    public int somaDivisao(int a, int b){
+    public float somaDivisao(float a, float b){
         return  (a+b)/100;
         
     }
     
-    public int somaDivisaoMutiplicacao(int a, int b, int c){
+    public float somaDivisaoMutiplicacao(float a, float b, float c){
         return ((a+b)/100) * c;
     }
     
-    public int somaDivisiaoMutiplicacaoDivisao(int a, int b, int c, int d){
+    public float somaDivisiaoMutiplicacaoDivisao(float a, float b, float c, float d){
         return (((a+b)/100) * c) / d;
     }
     
