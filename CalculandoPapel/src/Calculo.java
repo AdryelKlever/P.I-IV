@@ -4,9 +4,7 @@ public class Calculo {
     public float alturaMedia = 2;
     public float montagemLateral = 3;
     public float qtdEtiquetas = 100; 
-   
-    
-    
+  
     
     
     public float somaDivisao(float a, float b){
@@ -22,15 +20,15 @@ public class Calculo {
         return (((a+b)/100) * c) / d;
     }
     
-    public float Calculo(){        
-        return (float)(((getAltura()) + (getAlturaMedia())/ 1000) * (getEtiquetasUnidades())) / (getMontagemLateral());
+    public float calculo(){        
+        return (float)((((getAltura()) + (getAlturaMedia()))/ 1000) * (getEtiquetasUnidades())) / (getMontagemLateral());
         
     }
     
     public float getAltura() {
         return altura;
     }
-    //Teste de commit 
+
     public void setAlturaMedia(float alturaMedia){
         this.alturaMedia = alturaMedia;
     }

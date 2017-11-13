@@ -4,66 +4,67 @@
 <span class="nc" id="L4">    public float alturaMedia = 2;</span>
 <span class="nc" id="L5">    public float montagemLateral = 3;</span>
 <span class="nc" id="L6">    public float qtdEtiquetas = 100; </span>
-   
+  
     
     
-    
-    
-    public int somaDivisao(int a, int b){
-<span class="nc" id="L13">        return  (a+b)/100;</span>
+    public float somaDivisao(float a, float b){
+<span class="nc" id="L11">        return  (a+b)/100;</span>
         
     }
     
-    public int somaDivisaoMutiplicacao(int a, int b, int c){
-<span class="nc" id="L18">        return ((a+b)/100) * c;</span>
+    public float somaDivisaoMutiplicacao(float a, float b, float c){
+<span class="nc" id="L16">        return ((a+b)/100) * c;</span>
     }
     
-    public int somaDivisiaoMutiplicacaoDivisao(int a, int b, int c, int d){
-<span class="nc" id="L22">        return (((a+b)/100) * c) / d;</span>
+    public float somaDivisiaoMutiplicacaoDivisao(float a, float b, float c, float d){
+<span class="nc" id="L20">        return (((a+b)/100) * c) / d;</span>
     }
     
-    public float Calculo(){        
-<span class="nc" id="L26">        return (float)(((getAltura()) + (getAlturaMedia())/ 1000) * (getEtiquetasUnidades())) / (getMontagemLateral());</span>
+    public float calculo(){        
+<span class="nc" id="L24">        return (float)((((getAltura()) + (getAlturaMedia()))/ 1000) * (getEtiquetasUnidades())) / (getMontagemLateral());</span>
         
     }
     
     public float getAltura() {
-<span class="nc" id="L31">        return altura;</span>
+<span class="nc" id="L29">        return altura;</span>
     }
-    
+
     public void setAlturaMedia(float alturaMedia){
-<span class="nc" id="L35">        this.alturaMedia = alturaMedia;</span>
-<span class="nc" id="L36">    }</span>
+<span class="nc" id="L33">        this.alturaMedia = alturaMedia;</span>
+<span class="nc" id="L34">    }</span>
     
     public float getAlturaMedia(){
-<span class="nc" id="L39">        return alturaMedia;</span>
+<span class="nc" id="L37">        return alturaMedia;</span>
     }
 
    
     public void setAltura(float altura) {
-<span class="nc" id="L44">        this.altura = altura;</span>
-<span class="nc" id="L45">    }</span>
+<span class="nc" id="L42">        this.altura = altura;</span>
+<span class="nc" id="L43">    }</span>
    
     public float getMontagemLateral() {
-<span class="nc" id="L48">        return montagemLateral;</span>
+<span class="nc" id="L46">        return montagemLateral;</span>
     }
 
     
     public void setMontagemLateral(float montagemLateral) {
-<span class="nc" id="L53">        this.montagemLateral = montagemLateral;</span>
-<span class="nc" id="L54">    }</span>
+<span class="nc" id="L51">        this.montagemLateral = montagemLateral;</span>
+<span class="nc" id="L52">    }</span>
 
     
     public float getEtiquetasUnidades() {
-<span class="nc" id="L58">        return qtdEtiquetas;</span>
+<span class="nc" id="L56">        return qtdEtiquetas;</span>
     }
 
     
     public void setEtiquetasUnidades(float qtdEtiquetas) {
-<span class="nc" id="L63">        this.qtdEtiquetas = qtdEtiquetas;</span>
-<span class="nc" id="L64">    }</span>
+<span class="nc" id="L61">        this.qtdEtiquetas = qtdEtiquetas;</span>
+<span class="nc" id="L62">    }</span>
     
-}
+    public String qtdtotal() {
+<span class="nc" id="L65">        return &quot;Altura: &quot; + altura + &quot;Altura Média: &quot; + alturaMedia;</span>
+    
+}}
     
 
-</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>

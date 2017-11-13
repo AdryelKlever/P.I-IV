@@ -144,7 +144,7 @@ public class CalculoMetroLinear extends javax.swing.JFrame {
         c.setMontagemLateral(Float.parseFloat(txtMontagemLateral.getText()));
         c.setEtiquetasUnidades(Float.parseFloat(txtQuantidade.getText()));
         
-        JOptionPane.showMessageDialog(this, c);
+        JOptionPane.showMessageDialog(this, c.calculo());
         
         
         
