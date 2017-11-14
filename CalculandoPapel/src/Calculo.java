@@ -1,9 +1,9 @@
 
 public class Calculo {
-    public float altura = 40;
-    public float alturaMedia = 2;
-    public float montagemLateral = 3;
-    public float qtdEtiquetas = 100; 
+    private float altura = 40;
+    private float alturaMedia = 2;
+    private float montagemLateral = 3;
+    private float qtdEtiquetas = 100; 
   
     
     

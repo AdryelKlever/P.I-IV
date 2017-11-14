@@ -146,7 +146,10 @@ public class CalculoMetroLinear extends javax.swing.JFrame {
         
         JOptionPane.showMessageDialog(this, c.calculo());
         
-        
+        txtAltura.setText("");
+        txtAlturaMedia.setText("");
+        txtMontagemLateral.setText("");
+        txtQuantidade.setText("");
         
         
     }//GEN-LAST:event_jButton1ActionPerformed
