@@ -20,7 +20,7 @@ public class Calculo {
         return (((a+b)/100) * c) / d;
     }
     
-    public float calculo(){        
+    public float Calculo(){        
         return (float)((((getAltura()) + (getAlturaMedia()))/ 1000) * (getEtiquetasUnidades())) / (getMontagemLateral());
         
     }
@@ -61,9 +61,7 @@ public class Calculo {
         this.qtdEtiquetas = qtdEtiquetas;
     }
     
-    public String qtdtotal() {
-        return "Altura: " + altura + "Altura Média: " + alturaMedia;
-    
-}}
+
+}
     
 
