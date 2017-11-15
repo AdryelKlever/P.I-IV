@@ -56,7 +56,15 @@ public class CalculoTest {
         assertEquals(4, c.somaDivisiaoMutiplicacaoDivisao(200, 200, 2, 2));
        
     }
-
+    
+    @Test
+    public void testcalculo(){
+        System.out.println("Retorna calculo");
+        Calculo c = new Calculo();
+        float retorna = 1.4f;
+        float resultado = c.calculo();
+        assertEquals(retorna, resultado);
+    }
     
     @Test
     public void testRetornaGetAltura() {
@@ -70,10 +78,10 @@ public class CalculoTest {
     
     @Test
     public void testEnviaSetAltura() {
-        System.out.println("Enviar quantidade de etiquetas");
+        System.out.println("Enviar altura");
         float envia = 40f;
         Calculo c = new Calculo();
-        c.setEtiquetasUnidades(envia);
+        c.setAltura(envia);
         assertEquals(c.getAltura(), envia);
    
      
@@ -83,10 +91,10 @@ public class CalculoTest {
     
     @Test
     public void testEnviaSetAlturaMedia() {
-        System.out.println("Enviar quantidade de etiquetas");
+        System.out.println("Enviar altura media");
         float envia = 2f;
         Calculo c = new Calculo();
-        c.setEtiquetasUnidades(envia);
+        c.setAlturaMedia(envia);
         assertEquals(c.getAlturaMedia(), envia);
    
      

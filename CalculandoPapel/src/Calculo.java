@@ -20,7 +20,7 @@ public class Calculo {
         return (((a+b)/100) * c) / d;
     }
     
-    public float Calculo(){        
+    public float calculo(){        
         return (float)((((getAltura()) + (getAlturaMedia()))/ 1000) * (getEtiquetasUnidades())) / (getMontagemLateral());
         
     }
