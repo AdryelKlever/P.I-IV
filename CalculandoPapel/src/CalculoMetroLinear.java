@@ -1,6 +1,5 @@
 import javax.swing.JOptionPane;
 
-
 public class CalculoMetroLinear extends javax.swing.JFrame {
 
     

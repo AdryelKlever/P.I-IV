@@ -1,5 +1,3 @@
-
-
 import java.util.Objects;
 import static junit.framework.Assert.assertEquals;
 import org.junit.After;

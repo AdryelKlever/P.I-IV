@@ -1,10 +1,10 @@
 public class CalculoTinta {
-    private float substrato;
-    private float processoImpressao;
-    private float areaImpressao;
-    private float tiragemImpressao;
-    private float tipoGrafismo;
-    private float pesoEspecifico;
+    private float substrato = 2;
+    private float processoImpressao = 2;
+    private float areaImpressao = 2;
+    private float tiragemImpressao = 2;
+    private float tipoGrafismo = 2;
+    private float pesoEspecifico = 2;
     
     public float calculoTinta(){
         return (float)((getSubstrato() * getProcessoImpressao() * getAreaImpressao() * getTiragemImpressao() * getTipoGrafismo() * getPesoEspecifico()) / 353);

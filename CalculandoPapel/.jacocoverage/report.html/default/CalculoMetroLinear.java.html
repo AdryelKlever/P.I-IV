@@ -1,58 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>CalculoMetroLinear.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCoverage analysis of project &quot;CalculandoPapel&quot; (powered by JaCoCo from EclEmma)</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">CalculoMetroLinear.java</span></div><h1>CalculoMetroLinear.java</h1><pre class="source lang-java linenums">
-import javax.swing.JOptionPane;
-
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>CalculoMetroLinear.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCoverage analysis of project &quot;CalculandoPapel&quot; (powered by JaCoCo from EclEmma)</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">CalculoMetroLinear.java</span></div><h1>CalculoMetroLinear.java</h1><pre class="source lang-java linenums">import javax.swing.JOptionPane;
 
 public class CalculoMetroLinear extends javax.swing.JFrame {
 
     
-<span class="fc" id="L8">    public CalculoMetroLinear() {</span>
-<span class="fc" id="L9">        initComponents();</span>
-<span class="fc" id="L10">    }</span>
+<span class="fc" id="L6">    public CalculoMetroLinear() {</span>
+<span class="fc" id="L7">        initComponents();</span>
+<span class="fc" id="L8">    }</span>
 
     
     @SuppressWarnings(&quot;unchecked&quot;)
     // &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
     private void initComponents() {
 
-<span class="fc" id="L17">        jLabel1 = new javax.swing.JLabel();</span>
-<span class="fc" id="L18">        jLabel2 = new javax.swing.JLabel();</span>
-<span class="fc" id="L19">        jLabel4 = new javax.swing.JLabel();</span>
-<span class="fc" id="L20">        txtQuantidade = new javax.swing.JTextField();</span>
-<span class="fc" id="L21">        jButton1 = new javax.swing.JButton();</span>
-<span class="fc" id="L22">        jLabel3 = new javax.swing.JLabel();</span>
-<span class="fc" id="L23">        jLabel5 = new javax.swing.JLabel();</span>
-<span class="fc" id="L24">        txtAlturaMedia = new javax.swing.JTextField();</span>
-<span class="fc" id="L25">        txtMontagemLateral = new javax.swing.JTextField();</span>
-<span class="fc" id="L26">        txtAltura = new javax.swing.JTextField();</span>
-<span class="fc" id="L27">        jScrollPane1 = new javax.swing.JScrollPane();</span>
-<span class="fc" id="L28">        jTable1 = new javax.swing.JTable();</span>
+<span class="fc" id="L15">        jLabel1 = new javax.swing.JLabel();</span>
+<span class="fc" id="L16">        jLabel2 = new javax.swing.JLabel();</span>
+<span class="fc" id="L17">        jLabel4 = new javax.swing.JLabel();</span>
+<span class="fc" id="L18">        txtQuantidade = new javax.swing.JTextField();</span>
+<span class="fc" id="L19">        jButton1 = new javax.swing.JButton();</span>
+<span class="fc" id="L20">        jLabel3 = new javax.swing.JLabel();</span>
+<span class="fc" id="L21">        jLabel5 = new javax.swing.JLabel();</span>
+<span class="fc" id="L22">        txtAlturaMedia = new javax.swing.JTextField();</span>
+<span class="fc" id="L23">        txtMontagemLateral = new javax.swing.JTextField();</span>
+<span class="fc" id="L24">        txtAltura = new javax.swing.JTextField();</span>
+<span class="fc" id="L25">        jScrollPane1 = new javax.swing.JScrollPane();</span>
+<span class="fc" id="L26">        jTable1 = new javax.swing.JTable();</span>
 
-<span class="fc" id="L30">        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);</span>
+<span class="fc" id="L28">        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);</span>
 
-<span class="fc" id="L32">        jLabel1.setText(&quot;ENSIRA OS DADOS NECESSARIOS&quot;);</span>
+<span class="fc" id="L30">        jLabel1.setText(&quot;INSIRA OS DADOS NECESSARIOS&quot;);</span>
 
-<span class="fc" id="L34">        jLabel2.setText(&quot;ALTURA&quot;);</span>
+<span class="fc" id="L32">        jLabel2.setText(&quot;ALTURA&quot;);</span>
 
-<span class="fc" id="L36">        jLabel4.setText(&quot;QUANTIDADE TOTAL DE ETIQUETAS / UNIDADE&quot;);</span>
+<span class="fc" id="L34">        jLabel4.setText(&quot;QUANTIDADE TOTAL DE ETIQUETAS / UNIDADE&quot;);</span>
 
-<span class="fc" id="L38">        jButton1.setText(&quot;GERAR VALOR&quot;);</span>
-<span class="fc" id="L39">        jButton1.addActionListener(new java.awt.event.ActionListener() {</span>
+<span class="fc" id="L36">        jButton1.setText(&quot;GERAR VALOR&quot;);</span>
+<span class="fc" id="L37">        jButton1.addActionListener(new java.awt.event.ActionListener() {</span>
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-<span class="nc" id="L41">                jButton1ActionPerformed(evt);</span>
-<span class="nc" id="L42">            }</span>
+<span class="nc" id="L39">                jButton1ActionPerformed(evt);</span>
+<span class="nc" id="L40">            }</span>
         });
 
-<span class="fc" id="L45">        jLabel3.setText(&quot;ALTURA MEDIA&quot;);</span>
+<span class="fc" id="L43">        jLabel3.setText(&quot;ALTURA MEDIA&quot;);</span>
 
-<span class="fc" id="L47">        jLabel5.setText(&quot;MONTAGEM LATERAL&quot;);</span>
+<span class="fc" id="L45">        jLabel5.setText(&quot;MONTAGEM LATERAL&quot;);</span>
 
-<span class="fc" id="L49">        txtAltura.addActionListener(new java.awt.event.ActionListener() {</span>
+<span class="fc" id="L47">        txtAltura.addActionListener(new java.awt.event.ActionListener() {</span>
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-<span class="nc" id="L51">                txtAlturaActionPerformed(evt);</span>
-<span class="nc" id="L52">            }</span>
+<span class="nc" id="L49">                txtAlturaActionPerformed(evt);</span>
+<span class="nc" id="L50">            }</span>
         });
 
-<span class="fc" id="L55">        jTable1.setModel(new javax.swing.table.DefaultTableModel(</span>
+<span class="fc" id="L53">        jTable1.setModel(new javax.swing.table.DefaultTableModel(</span>
             new Object [][] {
                 {null, null, null, null, null},
                 {null, null, null, null, null},
@@ -68,105 +66,105 @@ public class CalculoMetroLinear extends javax.swing.JFrame {
             new String [] {
                 &quot;Altura&quot;, &quot;Altura Média&quot;, &quot;Montagem Lateral&quot;, &quot;Qtd total etiquetas/unidade&quot;, &quot;Resultado&quot;
             }
-<span class="fc" id="L71">        ) {</span>
-<span class="fc" id="L72">            Class[] types = new Class [] {</span>
+<span class="fc" id="L69">        ) {</span>
+<span class="fc" id="L70">            Class[] types = new Class [] {</span>
                 java.lang.Float.class, java.lang.Float.class, java.lang.Float.class, java.lang.Float.class, java.lang.Float.class
             };
 
             public Class getColumnClass(int columnIndex) {
-<span class="fc" id="L77">                return types [columnIndex];</span>
+<span class="fc" id="L75">                return types [columnIndex];</span>
             }
         });
-<span class="fc" id="L80">        jScrollPane1.setViewportView(jTable1);</span>
+<span class="fc" id="L78">        jScrollPane1.setViewportView(jTable1);</span>
 
-<span class="fc" id="L82">        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());</span>
-<span class="fc" id="L83">        getContentPane().setLayout(layout);</span>
-<span class="fc" id="L84">        layout.setHorizontalGroup(</span>
-<span class="fc" id="L85">            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)</span>
-<span class="fc" id="L86">            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()</span>
-<span class="fc" id="L87">                .addContainerGap()</span>
-<span class="fc" id="L88">                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)</span>
-<span class="fc" id="L89">                    .addComponent(jLabel3)</span>
-<span class="fc" id="L90">                    .addComponent(jLabel2)</span>
-<span class="fc" id="L91">                    .addComponent(jLabel5)</span>
-<span class="fc" id="L92">                    .addComponent(jLabel4))</span>
-<span class="fc" id="L93">                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 145, Short.MAX_VALUE)</span>
-<span class="fc" id="L94">                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)</span>
-<span class="fc" id="L95">                    .addComponent(txtAlturaMedia, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)</span>
-<span class="fc" id="L96">                    .addComponent(txtAltura, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)</span>
-<span class="fc" id="L97">                    .addComponent(txtMontagemLateral, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)</span>
-<span class="fc" id="L98">                    .addComponent(txtQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))</span>
-<span class="fc" id="L99">                .addGap(61, 61, 61))</span>
-<span class="fc" id="L100">            .addGroup(layout.createSequentialGroup()</span>
-<span class="fc" id="L101">                .addGap(205, 205, 205)</span>
-<span class="fc" id="L102">                .addComponent(jButton1)</span>
-<span class="fc" id="L103">                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))</span>
-<span class="fc" id="L104">            .addGroup(layout.createSequentialGroup()</span>
-<span class="fc" id="L105">                .addGap(182, 182, 182)</span>
-<span class="fc" id="L106">                .addComponent(jLabel1)</span>
-<span class="fc" id="L107">                .addGap(0, 0, Short.MAX_VALUE))</span>
-<span class="fc" id="L108">            .addComponent(jScrollPane1)</span>
+<span class="fc" id="L80">        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());</span>
+<span class="fc" id="L81">        getContentPane().setLayout(layout);</span>
+<span class="fc" id="L82">        layout.setHorizontalGroup(</span>
+<span class="fc" id="L83">            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)</span>
+<span class="fc" id="L84">            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()</span>
+<span class="fc" id="L85">                .addContainerGap()</span>
+<span class="fc" id="L86">                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)</span>
+<span class="fc" id="L87">                    .addComponent(jLabel3)</span>
+<span class="fc" id="L88">                    .addComponent(jLabel2)</span>
+<span class="fc" id="L89">                    .addComponent(jLabel5)</span>
+<span class="fc" id="L90">                    .addComponent(jLabel4))</span>
+<span class="fc" id="L91">                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 145, Short.MAX_VALUE)</span>
+<span class="fc" id="L92">                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)</span>
+<span class="fc" id="L93">                    .addComponent(txtAlturaMedia, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)</span>
+<span class="fc" id="L94">                    .addComponent(txtAltura, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)</span>
+<span class="fc" id="L95">                    .addComponent(txtMontagemLateral, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)</span>
+<span class="fc" id="L96">                    .addComponent(txtQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))</span>
+<span class="fc" id="L97">                .addGap(61, 61, 61))</span>
+<span class="fc" id="L98">            .addGroup(layout.createSequentialGroup()</span>
+<span class="fc" id="L99">                .addGap(205, 205, 205)</span>
+<span class="fc" id="L100">                .addComponent(jButton1)</span>
+<span class="fc" id="L101">                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))</span>
+<span class="fc" id="L102">            .addGroup(layout.createSequentialGroup()</span>
+<span class="fc" id="L103">                .addGap(182, 182, 182)</span>
+<span class="fc" id="L104">                .addComponent(jLabel1)</span>
+<span class="fc" id="L105">                .addGap(0, 0, Short.MAX_VALUE))</span>
+<span class="fc" id="L106">            .addComponent(jScrollPane1)</span>
         );
-<span class="fc" id="L110">        layout.setVerticalGroup(</span>
-<span class="fc" id="L111">            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)</span>
-<span class="fc" id="L112">            .addGroup(layout.createSequentialGroup()</span>
-<span class="fc" id="L113">                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)</span>
-<span class="fc" id="L114">                .addComponent(jLabel1)</span>
-<span class="fc" id="L115">                .addGap(50, 50, 50)</span>
-<span class="fc" id="L116">                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)</span>
-<span class="fc" id="L117">                    .addComponent(txtAltura, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)</span>
-<span class="fc" id="L118">                    .addComponent(jLabel2))</span>
-<span class="fc" id="L119">                .addGap(18, 18, 18)</span>
-<span class="fc" id="L120">                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)</span>
-<span class="fc" id="L121">                    .addComponent(txtAlturaMedia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)</span>
-<span class="fc" id="L122">                    .addComponent(jLabel3))</span>
-<span class="fc" id="L123">                .addGap(18, 18, 18)</span>
-<span class="fc" id="L124">                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)</span>
-<span class="fc" id="L125">                    .addComponent(txtMontagemLateral, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)</span>
-<span class="fc" id="L126">                    .addComponent(jLabel5))</span>
-<span class="fc" id="L127">                .addGap(18, 18, 18)</span>
-<span class="fc" id="L128">                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)</span>
-<span class="fc" id="L129">                    .addComponent(txtQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)</span>
-<span class="fc" id="L130">                    .addComponent(jLabel4))</span>
+<span class="fc" id="L108">        layout.setVerticalGroup(</span>
+<span class="fc" id="L109">            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)</span>
+<span class="fc" id="L110">            .addGroup(layout.createSequentialGroup()</span>
+<span class="fc" id="L111">                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)</span>
+<span class="fc" id="L112">                .addComponent(jLabel1)</span>
+<span class="fc" id="L113">                .addGap(50, 50, 50)</span>
+<span class="fc" id="L114">                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)</span>
+<span class="fc" id="L115">                    .addComponent(txtAltura, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)</span>
+<span class="fc" id="L116">                    .addComponent(jLabel2))</span>
+<span class="fc" id="L117">                .addGap(18, 18, 18)</span>
+<span class="fc" id="L118">                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)</span>
+<span class="fc" id="L119">                    .addComponent(txtAlturaMedia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)</span>
+<span class="fc" id="L120">                    .addComponent(jLabel3))</span>
+<span class="fc" id="L121">                .addGap(18, 18, 18)</span>
+<span class="fc" id="L122">                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)</span>
+<span class="fc" id="L123">                    .addComponent(txtMontagemLateral, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)</span>
+<span class="fc" id="L124">                    .addComponent(jLabel5))</span>
+<span class="fc" id="L125">                .addGap(18, 18, 18)</span>
+<span class="fc" id="L126">                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)</span>
+<span class="fc" id="L127">                    .addComponent(txtQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)</span>
+<span class="fc" id="L128">                    .addComponent(jLabel4))</span>
+<span class="fc" id="L129">                .addGap(18, 18, 18)</span>
+<span class="fc" id="L130">                .addComponent(jButton1)</span>
 <span class="fc" id="L131">                .addGap(18, 18, 18)</span>
-<span class="fc" id="L132">                .addComponent(jButton1)</span>
-<span class="fc" id="L133">                .addGap(18, 18, 18)</span>
-<span class="fc" id="L134">                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE))</span>
+<span class="fc" id="L132">                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE))</span>
         );
 
-<span class="fc" id="L137">        pack();</span>
-<span class="fc" id="L138">    }// &lt;/editor-fold&gt;//GEN-END:initComponents</span>
+<span class="fc" id="L135">        pack();</span>
+<span class="fc" id="L136">    }// &lt;/editor-fold&gt;//GEN-END:initComponents</span>
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-<span class="nc" id="L141">        Calculo c = new Calculo();</span>
-<span class="nc" id="L142">        c.setAltura(Float.parseFloat(txtAltura.getText()));</span>
-<span class="nc" id="L143">        c.setAlturaMedia(Float.parseFloat(txtAlturaMedia.getText()));</span>
-<span class="nc" id="L144">        c.setMontagemLateral(Float.parseFloat(txtMontagemLateral.getText()));</span>
-<span class="nc" id="L145">        c.setEtiquetasUnidades(Float.parseFloat(txtQuantidade.getText()));</span>
+<span class="nc" id="L139">        Calculo c = new Calculo();</span>
+<span class="nc" id="L140">        c.setAltura(Float.parseFloat(txtAltura.getText()));</span>
+<span class="nc" id="L141">        c.setAlturaMedia(Float.parseFloat(txtAlturaMedia.getText()));</span>
+<span class="nc" id="L142">        c.setMontagemLateral(Float.parseFloat(txtMontagemLateral.getText()));</span>
+<span class="nc" id="L143">        c.setEtiquetasUnidades(Float.parseFloat(txtQuantidade.getText()));</span>
         
-<span class="nc" id="L147">        JOptionPane.showMessageDialog(this, c.calculo());</span>
+<span class="nc" id="L145">        JOptionPane.showMessageDialog(this, c.calculo());</span>
         
-<span class="nc" id="L149">        txtAltura.setText(&quot;&quot;);</span>
-<span class="nc" id="L150">        txtAlturaMedia.setText(&quot;&quot;);</span>
-<span class="nc" id="L151">        txtMontagemLateral.setText(&quot;&quot;);</span>
-<span class="nc" id="L152">        txtQuantidade.setText(&quot;&quot;);</span>
+<span class="nc" id="L147">        txtAltura.setText(&quot;&quot;);</span>
+<span class="nc" id="L148">        txtAlturaMedia.setText(&quot;&quot;);</span>
+<span class="nc" id="L149">        txtMontagemLateral.setText(&quot;&quot;);</span>
+<span class="nc" id="L150">        txtQuantidade.setText(&quot;&quot;);</span>
         
         
-<span class="nc" id="L155">    }//GEN-LAST:event_jButton1ActionPerformed</span>
+<span class="nc" id="L153">    }//GEN-LAST:event_jButton1ActionPerformed</span>
 
     private void txtAlturaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAlturaActionPerformed
         // TODO add your handling code here:
-<span class="nc" id="L159">    }//GEN-LAST:event_txtAlturaActionPerformed</span>
+<span class="nc" id="L157">    }//GEN-LAST:event_txtAlturaActionPerformed</span>
 
     
     public static void main(String args[]) {
         
-<span class="fc" id="L164">        java.awt.EventQueue.invokeLater(new Runnable() {</span>
+<span class="fc" id="L162">        java.awt.EventQueue.invokeLater(new Runnable() {</span>
             public void run() {
-<span class="fc" id="L166">                new CalculoMetroLinear().setVisible(true);</span>
-<span class="fc" id="L167">            }</span>
+<span class="fc" id="L164">                new CalculoMetroLinear().setVisible(true);</span>
+<span class="fc" id="L165">            }</span>
         });
-<span class="fc" id="L169">    } </span>
+<span class="fc" id="L167">    } </span>
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
