@@ -1,4 +1,3 @@
-
 import javax.swing.JOptionPane;
 
 
@@ -29,7 +28,7 @@ public class CalculoMetroLinear extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("ENSIRA OS DADOS NECESSARIOS");
+        jLabel1.setText("INSIRA OS DADOS NECESSARIOS");
 
         jLabel2.setText("ALTURA");
 

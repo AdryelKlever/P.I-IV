@@ -68,11 +68,11 @@ public class CalculoTest {
     
     @Test
     public void testRetornaGetAltura() {
-    System.out.println("Retorna a Altura");
-    Calculo c = new Calculo();
-    float retorna = 40f;
-    float resultado = c.getAltura();
-    assertEquals(retorna, resultado);
+        System.out.println("Retorna a Altura");
+        Calculo c = new Calculo();
+        float retorna = 40f;
+        float resultado = c.getAltura();
+        assertEquals(retorna, resultado);
     
     }
     
@@ -103,11 +103,11 @@ public class CalculoTest {
     
     @Test
     public void testRetornaGetAlturaMedia() {
-    System.out.println("Retorna a Altura Media");
-    Calculo c = new Calculo();
-    float retorna = 2f;
-    float resultado = c.getAlturaMedia();
-    assertEquals(retorna, resultado);
+        System.out.println("Retorna a Altura Media");
+        Calculo c = new Calculo();
+        float retorna = 2f;
+        float resultado = c.getAlturaMedia();
+        assertEquals(retorna, resultado);
         
     }
    

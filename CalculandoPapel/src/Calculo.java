@@ -1,4 +1,3 @@
-
 public class Calculo {
     private float altura = 40;
     private float alturaMedia = 2;
