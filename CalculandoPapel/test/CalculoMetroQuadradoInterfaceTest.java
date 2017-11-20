@@ -1,14 +1,15 @@
-import static junit.framework.Assert.assertEquals;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-//import static org.junit.Assert.*;
+import static org.junit.Assert.*;
 
-public class CalculoTintaInterfaceTest extends CalculoTintaInterface {
+
+public class CalculoMetroQuadradoInterfaceTest extends CalculoMetroQuadradoInterface{
     
-    public CalculoTintaInterfaceTest() {
+    public CalculoMetroQuadradoInterfaceTest() {
     }
     
     @BeforeClass
@@ -27,12 +28,12 @@ public class CalculoTintaInterfaceTest extends CalculoTintaInterface {
     public void tearDown() {
     }
 
-
     @Test
     public void testMain() {
         System.out.println("main");
         String[] args = null;
-        CalculoTintaInterface.main(args);
+        CalculoMetroQuadradoInterface.main(args);
+
     }
     
 }

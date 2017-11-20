@@ -5,12 +5,6 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-
-
-/**
- *
- * @author T-Gamer
- */
 public class CalculoMetroLinearTest extends CalculoMetroLinear {
     
     public CalculoMetroLinearTest() {
@@ -31,7 +25,6 @@ public class CalculoMetroLinearTest extends CalculoMetroLinear {
     @After
     public void tearDown() {
     }
-
     
     @Test
     public void testMain() {
