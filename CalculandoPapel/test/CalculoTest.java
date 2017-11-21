@@ -58,7 +58,6 @@ public class CalculoTest {
     @Test
     public void testcalculo(){
         System.out.println("Retorna calculo");
-        Calculo c = new Calculo();
         float retorna = 1.4f;
         float resultado = c.calculo();
         assertEquals(retorna, resultado);
@@ -67,7 +66,6 @@ public class CalculoTest {
     @Test
     public void testRetornaGetAltura() {
         System.out.println("Retorna a Altura");
-        Calculo c = new Calculo();
         float retorna = 40f;
         float resultado = c.getAltura();
         assertEquals(retorna, resultado);
@@ -78,7 +76,6 @@ public class CalculoTest {
     public void testEnviaSetAltura() {
         System.out.println("Enviar altura");
         float envia = 40f;
-        Calculo c = new Calculo();
         c.setAltura(envia);
         assertEquals(c.getAltura(), envia);
    
@@ -91,7 +88,6 @@ public class CalculoTest {
     public void testEnviaSetAlturaMedia() {
         System.out.println("Enviar altura media");
         float envia = 2f;
-        Calculo c = new Calculo();
         c.setAlturaMedia(envia);
         assertEquals(c.getAlturaMedia(), envia);
    
@@ -102,7 +98,6 @@ public class CalculoTest {
     @Test
     public void testRetornaGetAlturaMedia() {
         System.out.println("Retorna a Altura Media");
-        Calculo c = new Calculo();
         float retorna = 2f;
         float resultado = c.getAlturaMedia();
         assertEquals(retorna, resultado);
@@ -112,7 +107,6 @@ public class CalculoTest {
     @Test
     public void testRetornaGetMontagemLateral() {
         System.out.println("Retorna a Montagem Lateral");
-        Calculo c = new Calculo();
         float retorna = 3f;
         float resultado = c.getMontagemLateral();
         assertEquals(retorna, resultado);
@@ -124,7 +118,6 @@ public class CalculoTest {
     public void testEnviaSetMontagemLateral() {
         System.out.println("Enviar Montagem Lateral");
         float envia = 3f;
-        Calculo c = new Calculo();
         c.setMontagemLateral(envia);
         assertEquals(c.getMontagemLateral(), envia);
 
@@ -134,7 +127,6 @@ public class CalculoTest {
     @Test
     public void testRetornaGetEtiquetasUnidades() {
         System.out.println("Retorna a quantidade de etiquetas por unidade ");
-        Calculo c = new Calculo();
         float retorna = 100f;
         float resultado = c.getEtiquetasUnidades();
         assertEquals(retorna, resultado);
@@ -146,7 +138,6 @@ public class CalculoTest {
     public void testSetEtiquetasUnidades() {
         System.out.println("Enviar quantidade de etiquetas");
         float envia = 100f;
-        Calculo c = new Calculo();
         c.setEtiquetasUnidades(envia);
         assertEquals(c.getEtiquetasUnidades(), envia);
         
