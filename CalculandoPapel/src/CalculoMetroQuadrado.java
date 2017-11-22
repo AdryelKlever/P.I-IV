@@ -1,17 +1,17 @@
 public class CalculoMetroQuadrado {
     
-    public int largura = 40;
-    public int alturaMilimetro = 40;
-    public int qtd = 100;
-    public int esqueleto = 3;
-    public int alturaEsqueleto = 2;
+    public int largura;
+    public int alturaMilimetro;
+    public int qtd;
+    public int esqueleto;
+    public int alturaEsqueleto;
     
     public int somaDivisao2(int a, int b){
         return (a+b)/1000;
     }
     
     public int somaDivisaoMultiplicacao2(int a, int b, int c, int d){
-        return (((a+b)/1000) * ((c+d)/100));
+        return (((a+b)/1000) * ((c+d)/1000));
     }
     
     public int multipicacao(int a, int b, int c, int d, int e){
