@@ -34,16 +34,16 @@ public class CalculoCimentoTeste {
     @Test
     public void testCalculoAreia(){
         System.out.println("Retorna Areia");
-        float retorna = 120f;
-        float resultado = c.calculoCimento();
+        float retorna = 180f;
+        float resultado = c.calculoAreia();
         assertEquals(retorna, resultado);
     }
     
     @Test
     public void testcalculoPedra(){
         System.out.println("Retorna Pedra");
-        float retorna = 120f;
-        float resultado = c.calculoCimento();
+        float retorna = 180f;
+        float resultado = c.calculoPedra();
         assertEquals(retorna, resultado);
     }
     

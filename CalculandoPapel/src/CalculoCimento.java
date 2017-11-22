@@ -9,7 +9,7 @@ public class CalculoCimento {
     }
     
     
-    public float calculoPera(){
+    public float calculoPedra(){
         return (pedra * m3);
     }
     
