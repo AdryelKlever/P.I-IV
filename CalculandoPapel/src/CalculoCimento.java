@@ -2,7 +2,7 @@ public class CalculoCimento {
     private float areia = 60;
     private float pedra = 60;
     private float cimento = 480;
-    private int m3 = 3;
+    private float m3 = 3;
     
     public float calculoAreia(){
         return (areia * m3);
@@ -41,11 +41,11 @@ public class CalculoCimento {
         this.cimento = cimento;
     }
 
-    public int getM3() {
+    public float getM3() {
         return m3;
     }
 
-    public void setM3(int m3) {
+    public void setM3(float m3) {
         this.m3 = m3;
     } 
 }

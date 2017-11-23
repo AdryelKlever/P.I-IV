@@ -1,10 +1,11 @@
-# Calculo da metragem do substrato para etiquetas e rótulos
+﻿# Calculo da metragem do substrato para etiquetas e rótulos e caculo de massa de cimento por m3
 
 
 *Há um crescimento do uso da flexografia, tanto em banda larga quanto em banda estreita. Como o processo flexográfico evoluiu bastante nos últimos anos, principalmente em tecnologia, hoje é uma opção excelente de impressão para embalagens, rótulos e etiquetas, entre outros produtos. A flexo vem conseguindo imprimir produtos que até então eram feitos somente em rotogravura ou offset -  Ana Carina Marcussi, presidente executiva da Associação Brasileira Técnica de Flexografia, Abflexo/FTA Brasil.
+*O uso de calculos altomatico almenta mais e mais a cada dia, isso se deve a necessidade de ganho de tempo pelas pessoas que precisam dos resultados de grandes calculos. A engenharia adota calculos que são extremamente estressantes de se fazerem a mão mas que podem ser feitos altomaticamentes per um software.
 
 # Descrição 
-*Assim, surgi a ideia de um software desktop para o calculo linear necessário para realização o trabalho flexográfico., já que empresas menores fazem à mão. O objetivo é agilizar o trabalho e evitar erros matemáticos durante o calculo.   
+*Assim, surgi a ideia de um software desktop para o calculo linear e de massa/m3 para realização o trabalho calculo., já que empresas menores fazem à mão. O objetivo é agilizar o trabalho e evitar erros matemáticos durante o calculo.   
 O software será desenvolvido em '<JAVA>'.
 
 #Cronograma.

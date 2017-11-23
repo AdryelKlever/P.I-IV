@@ -159,6 +159,9 @@ public class CalculoMetroLinear extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new CalculoMetroLinear().setVisible(true);
+                new CalculoMetroQuadradoInterface().setVisible(true);
+                new CalculoTintaInterface().setVisible(true);
+                new CalculoCimentoInterface().setVisible(true);
             }
         });
     } 
