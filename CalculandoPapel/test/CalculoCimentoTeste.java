@@ -1,11 +1,9 @@
-import java.util.Objects;
 import static junit.framework.Assert.assertEquals;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 public class CalculoCimentoTeste {
     
@@ -29,6 +27,57 @@ public class CalculoCimentoTeste {
     
     @After
     public void tearDown() {
+    }
+    
+    @Test
+    public void testEnviaSetAreia() {
+        System.out.println("Enviar Areia");
+        float envia = 60f;
+        c.setAreia(envia);
+        assertEquals(c.getAreia(), envia);
+    }
+    
+    @Test
+    public void testRetornaAreia() {
+        System.out.println("Retorna Areia");
+        float retorna = 60f;
+        float resultado = c.getAreia();
+        assertEquals(retorna, resultado);
+        
+    }
+    
+    @Test
+    public void testEnviaSetPedra() {
+        System.out.println("Enviar Pedra");
+        float envia = 60f;
+        c.setAreia(envia);
+        assertEquals(c.getPedra(), envia);
+    }
+    
+    @Test
+    public void testRetornaGetPedra() {
+        System.out.println("Retorna Pedra");
+        float retorna = 60f;
+        float resultado = c.getPedra();
+        assertEquals(retorna, resultado);
+        
+    }
+    
+    @Test
+    public void testEnviaSetCimento() {
+        System.out.println("Enviar Cimento");
+        float envia = 480f;
+        c.setAreia(envia);
+        assertEquals(c.getCimento(), envia);
+    }
+    
+    @Test
+    public void testRetornaGetCimento() {
+        System.out.println("Retorna Cimento");
+        float retorna = 480f;
+        float resultado = c.getCimento();
+        assertEquals(retorna, resultado);
+        
     }
     
     @Test
