@@ -161,7 +161,6 @@ public class CalculoMetroLinear extends javax.swing.JFrame {
                 new CalculoMetroLinear().setVisible(true);
                 new CalculoMetroQuadradoInterface().setVisible(true);
                 new CalculoTintaInterface().setVisible(true);
-                new CalculoCimentoInterface().setVisible(true);
             }
         });
     } 
